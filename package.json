@@ -12,13 +12,11 @@
         "deploy": "gh-pages -d build"
     },
     "repository": {
-        "type": "git",
-
+        "type": "git"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
-
     "devDependencies": {
         "@babel/core": "^7.22.9",
         "@babel/preset-env": "^7.22.9",
@@ -34,7 +32,10 @@
         "tailwindcss": "^3.3.2"
     },
     "dependencies": {
+        "@babel/plugin-transform-proto-to-assign": "^7.23.3",
         "@reduxjs/toolkit": "^1.9.5",
+        "@swc/helpers": "^0.5.3",
+        "babble": "^0.11.0",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "react-redux": "^8.1.1",
@@ -42,6 +43,6 @@
     },
     "browserslist": [
         "last 2 versions"
-    ],
-    "main": "babel.config.js"
+    ]
+
 }
